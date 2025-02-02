@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from app.controller.accommodation_controller import get_accommodation, details_accommodation
+from app.controllers.accommodation_controller import get_accommodation, details_accommodation
 
 accommodation_bp = Blueprint('accommodation', __name__)
 

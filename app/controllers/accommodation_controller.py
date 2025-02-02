@@ -1,5 +1,6 @@
 import json
 from flask import jsonify
+from app.utils.helpers import remove_accents
 
 def loading_accommodation():
   with open('app/data/accommodation.json') as file:
@@ -7,10 +8,16 @@ def loading_accommodation():
   return data
 
 def get_accommodation(city=None):
-  accommodation = loading_accommodation()
-  if city:
-    accommodation = [a for a in accommodation if a['cidade'].lower() == city.lower()]
-  return jsonify(accommodation)
+    accommodation = loading_accommodation()
+
+    if city:
+        city_normalized = remove_accents(city.lower())
+        accommodation = [
+            a for a in accommodation
+            if city_normalized in remove_accents(a['cidade'].lower())
+        ]
+
+    return jsonify(accommodation)
 
 def details_accommodation(id):
   accommodation = loading_accommodation()
