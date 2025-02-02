@@ -1,0 +1,42 @@
+[
+  {
+      "id": 1,
+      "nome": "Hotel Praia Dourada",
+      "cidade": "Florianópolis, SC",
+      "imagem": "https://cdn.lifestyleasia.com/wp-content/uploads/2019/01/06220603/Laucala_peninsula_villa_aerial7.jpg",
+      "preco_noite": 350,
+      "descricao": "Um hotel luxuoso à beira-mar."
+  },
+  {
+      "id": 2,
+      "nome": "Pousada Serra Verde",
+      "cidade": "Gramado, RS",
+      "imagem": "https://th.bing.com/th/id/R.5dc8385b8cbd0fb600f26767d1e9b518?rik=xTF2R9hFRZiSCQ&pid=ImgRaw&r=0",
+      "preco_noite": 150,
+      "descricao": "Uma pousada aconchegante nas montanhas."
+  },
+  {
+      "id": 3,
+      "nome": "Resort Sol Nascente",
+      "cidade": "Florianópolis, SC",
+      "imagem": "https://visitorlando.widen.net/content/eeqms5xd3e/jpeg/164909-boathouse-exterior.jpg?crop=true&position=c&q=80&color=ffffffff&u=kggsuk&h=1252&quality=80",
+      "preco_noite": 500,
+      "descricao": "Um resort com vista para o mar."
+  },
+  {
+    "id": 4,
+    "nome": "Beira Mar Hotel",
+    "cidade": "São Jose, SC",
+    "imagem": "https://wanderera.com/wp-content/uploads/2022/12/The-Bellevue-Resort-Bohol.jpg",
+    "preco_noite": 400,
+    "descricao": "Um resort com vista para o mar."
+  },
+  {
+    "id": 3,
+    "nome": "Resort alegre",
+    "cidade": "Porto Alegre, RS",
+    "imagem": "https://business.inquirer.net/files/2023/04/manami-resort-04152023-03.jpg",
+    "preco_noite": 450,
+    "descricao": "Um resort com vista para o mar."
+  }
+]
